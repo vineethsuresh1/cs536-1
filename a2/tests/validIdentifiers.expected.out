@@ -1,0 +1,50 @@
+Token: ID
+LineNum: 1
+CharNum: 1
+Value: _
+
+Token: ID
+LineNum: 2
+CharNum: 1
+Value: __
+
+Token: ID
+LineNum: 3
+CharNum: 1
+Value: _123
+
+Token: ID
+LineNum: 4
+CharNum: 1
+Value: _ab
+
+Token: ID
+LineNum: 5
+CharNum: 1
+Value: _a123b
+
+Token: ID
+LineNum: 6
+CharNum: 1
+Value: Hello
+
+Token: ID
+LineNum: 7
+CharNum: 1
+Value: boolean
+
+Token: ID
+LineNum: 8
+CharNum: 1
+Value: integer
+
+Token: ID
+LineNum: 9
+CharNum: 1
+Value: returning
+
+Token: ID
+LineNum: 10
+CharNum: 1
+Value: elsewhile
+

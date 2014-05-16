@@ -1,0 +1,36 @@
+int x;
+void declareFunction(int x, bool y) {
+    int myx;
+    bool myy;
+    int hi;
+    myx(int) = 2;
+    myy(bool) = true;
+    myx(int)++;
+    myx(int)--;
+    cin >> hi(int);
+    cout << hi(int);
+    if ((myy(bool) && myy(bool))) {
+        int x;
+        int y;
+    }
+    else {
+        int x;
+        int y;
+        x(int) = 2;
+        y(int) = x(int);
+    }
+    while (myy(bool)) {
+        int x;
+        int y;
+        y(int) = (x(int) = 2);
+    }
+    declareFunction(int,bool->void)(x(int), y(bool));
+}
+
+int main() {
+    bool y;
+    x(int) = 2;
+    y(bool) = true;
+    declareFunction(int,bool->void)(x(int), y(bool));
+}
+

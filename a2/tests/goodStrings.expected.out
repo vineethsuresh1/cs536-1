@@ -1,0 +1,40 @@
+Token: STRINGLITERAL
+LineNum: 1
+CharNum: 1
+Value: "this is a good string"
+
+Token: STRINGLITERAL
+LineNum: 2
+CharNum: 2
+Value: "this is a good\nstring too"
+
+Token: STRINGLITERAL
+LineNum: 3
+CharNum: 3
+Value: "this is also good\"\""
+
+Token: STRINGLITERAL
+LineNum: 4
+CharNum: 4
+Value: "I think this should be good too \n\t\'\"\nhihohum"
+
+Token: STRINGLITERAL
+LineNum: 5
+CharNum: 5
+Value: ""
+
+Token: STRINGLITERAL
+LineNum: 6
+CharNum: 6
+Value: "&!88"
+
+Token: STRINGLITERAL
+LineNum: 7
+CharNum: 7
+Value: "use \n to denote a newline character"
+
+Token: STRINGLITERAL
+LineNum: 8
+CharNum: 8
+Value: "include a quote like this \" and a backslash like this \\"
+

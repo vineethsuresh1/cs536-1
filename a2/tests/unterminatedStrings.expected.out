@@ -1,0 +1,55 @@
+Token: STRINGLITERAL
+LineNum: 3
+CharNum: 5
+Value: "this is a sample string \n with a newline in the middle"
+
+Token: STRINGLITERAL
+LineNum: 5
+CharNum: 9
+Value: " "
+
+Token: ID
+LineNum: 5
+CharNum: 12
+Value: should
+
+Token: ID
+LineNum: 5
+CharNum: 19
+Value: have
+
+Token: ID
+LineNum: 5
+CharNum: 24
+Value: n
+
+Token: ID
+LineNum: 5
+CharNum: 26
+Value: said
+
+Token: ID
+LineNum: 5
+CharNum: 31
+Value: unterminated
+
+Token: ID
+LineNum: 5
+CharNum: 44
+Value: string
+
+Token: ID
+LineNum: 5
+CharNum: 51
+Value: literal
+
+Token: ID
+LineNum: 5
+CharNum: 59
+Value: ignored
+
+Token: STRINGLITERAL
+LineNum: 11
+CharNum: 1
+Value: "\n\t\'\"\\"
+

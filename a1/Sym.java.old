@@ -1,0 +1,26 @@
+/**
+ * Sym class implements constructor and public methods
+ * Sym(String type) initializes Sym to have a given type
+ * String getType() returns the type when called on a Sym
+ * String toString() returns the Sym's type as well (for now)
+ * @author John L. Peterson
+ * @version Feb 7, 2014
+ */
+public class Sym {
+  private String myType;
+ 
+  // Constructor that takes String denoting type 
+  public Sym(String type) {
+    myType = type;
+  }
+  
+  // Helper function to return type of Sym as a string
+  public String getType() {
+    return myType;
+  }
+  // Returns information about Sym
+  // For now, just the type
+  public String toString() {
+    return myType;
+  }
+}

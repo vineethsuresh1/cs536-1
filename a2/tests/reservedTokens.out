@@ -1,0 +1,48 @@
+Token: BOOL
+LineNum: 1
+CharNum: 1
+
+Token: INT
+LineNum: 2
+CharNum: 1
+
+Token: VOID
+LineNum: 3
+CharNum: 1
+
+Token: TRUE
+LineNum: 4
+CharNum: 1
+
+Token: FALSE
+LineNum: 5
+CharNum: 1
+
+Token: STRUCT
+LineNum: 6
+CharNum: 1
+
+Token: CIN
+LineNum: 7
+CharNum: 1
+
+Token: COUT
+LineNum: 8
+CharNum: 1
+
+Token: IF
+LineNum: 9
+CharNum: 1
+
+Token: ELSE
+LineNum: 10
+CharNum: 1
+
+Token: WHILE
+LineNum: 11
+CharNum: 1
+
+Token: RETURN
+LineNum: 12
+CharNum: 1
+

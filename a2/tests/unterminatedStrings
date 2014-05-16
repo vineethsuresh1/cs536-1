@@ -1,0 +1,13 @@
+"hello
+  "
+    "this is a sample string \n with a newline in the middle"
+      "that previous string
+        " "should have\n said unterminated string literal ignored"
+          " test \ "
+"unterminated
+"also unterminated \"
+"backslash followed by space: \ is not allowed"
+"bad escaped character: \a AND not terminated
+"\n\t\'\"\\"
+"\n\n\n\n\a\n\n\"
+"\n\t\'\"\\

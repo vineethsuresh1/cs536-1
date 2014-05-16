@@ -1,0 +1,8 @@
+/** Defines an exception for an Empty SymTable
+ * @author John L. Peterson
+ * @version Feb 7, 2014
+ */
+
+public class EmptySymTableException extends Exception {
+  // Blank for now, more functionality to be added soon
+}

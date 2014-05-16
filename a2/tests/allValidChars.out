@@ -1,0 +1,163 @@
+Token: BOOL
+LineNum: 1
+CharNum: 1
+
+Token: INT
+LineNum: 2
+CharNum: 1
+
+Token: VOID
+LineNum: 3
+CharNum: 1
+
+Token: TRUE
+LineNum: 4
+CharNum: 1
+
+Token: FALSE
+LineNum: 5
+CharNum: 1
+
+Token: STRUCT
+LineNum: 6
+CharNum: 1
+
+Token: CIN
+LineNum: 7
+CharNum: 1
+
+Token: COUT
+LineNum: 8
+CharNum: 1
+
+Token: IF
+LineNum: 9
+CharNum: 1
+
+Token: ELSE
+LineNum: 10
+CharNum: 1
+
+Token: WHILE
+LineNum: 11
+CharNum: 1
+
+Token: RETURN
+LineNum: 12
+CharNum: 1
+
+Token: ID
+LineNum: 13
+CharNum: 1
+Value: identifier
+
+Token: INTLITERAL
+LineNum: 14
+CharNum: 1
+Value: 12345
+
+Token: STRINGLITERAL
+LineNum: 15
+CharNum: 1
+Value: "sample \nstring"
+
+Token: LCURLY
+LineNum: 16
+CharNum: 1
+
+Token: RCURLY
+LineNum: 17
+CharNum: 1
+
+Token: LPAREN
+LineNum: 18
+CharNum: 1
+
+Token: RPAREN
+LineNum: 19
+CharNum: 1
+
+Token: SEMICOLON
+LineNum: 20
+CharNum: 1
+
+Token: COMMA
+LineNum: 21
+CharNum: 1
+
+Token: DOT
+LineNum: 22
+CharNum: 1
+
+Token: WRITE
+LineNum: 23
+CharNum: 1
+
+Token: READ
+LineNum: 24
+CharNum: 1
+
+Token: PLUSPLUS
+LineNum: 25
+CharNum: 1
+
+Token: MINUSMINUS
+LineNum: 26
+CharNum: 1
+
+Token: PLUS
+LineNum: 27
+CharNum: 1
+
+Token: MINUS
+LineNum: 28
+CharNum: 1
+
+Token: ASSIGN
+LineNum: 29
+CharNum: 1
+
+Token: DIVIDE
+LineNum: 30
+CharNum: 1
+
+Token: NOT
+LineNum: 31
+CharNum: 1
+
+Token: AND
+LineNum: 32
+CharNum: 1
+
+Token: OR
+LineNum: 33
+CharNum: 1
+
+Token: EQUALS
+LineNum: 34
+CharNum: 1
+
+Token: NOTEQUALS
+LineNum: 35
+CharNum: 1
+
+Token: LESS
+LineNum: 36
+CharNum: 1
+
+Token: GREATER
+LineNum: 37
+CharNum: 1
+
+Token: LESSEQ
+LineNum: 38
+CharNum: 1
+
+Token: GREATEREQ
+LineNum: 39
+CharNum: 1
+
+Token: ASSIGN
+LineNum: 40
+CharNum: 1
+

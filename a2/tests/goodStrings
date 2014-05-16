@@ -1,0 +1,8 @@
+"this is a good string"
+ "this is a good\nstring too"
+  "this is also good\"\""
+   "I think this should be good too \n\t\'\"\nhihohum"
+    ""
+     "&!88"
+      "use \n to denote a newline character"
+       "include a quote like this \" and a backslash like this \\"

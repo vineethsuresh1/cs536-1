@@ -1,0 +1,99 @@
+/**
+ * Table of Syms represented using a LinkedList of HashMaps
+ * These HashMaps map a String to a Sym
+ * Includes constructor and other public methods
+ * @author John L. Peterson
+ * @version Feb 7, 2014
+ */
+
+import java.util.*;
+
+public class SymTable {
+  private LinkedList<HashMap<String,Sym>> mySymTable; 
+  
+  // Construct SymTable to contain a single, empty HashMap
+  public SymTable() {
+    mySymTable = new LinkedList<HashMap<String,Sym>>();
+    HashMap<String,Sym> newMap = new HashMap<String,Sym>();
+    mySymTable.add(newMap);  
+  }
+  
+  // Add a Sym with a name to the first HashMap in our SymTable list
+  // If there is no hashmap, it already exists, or input is invalid,
+  // throw the proper exception.
+  public void addDecl(String name, Sym sym) 
+    throws DuplicateSymException, EmptySymTableException {
+    if((name.equals(null))||sym==null) {
+      throw new NullPointerException("name and sym cannot be null!");
+    }
+    else if(mySymTable.isEmpty()) {
+      throw new EmptySymTableException();
+    }
+    else { 
+      HashMap<String,Sym> firstMap = mySymTable.getFirst();
+      if(firstMap.containsKey(name)) {
+        throw new DuplicateSymException();
+      }
+    else {
+      firstMap.put(name, sym);
+    }
+    }
+  }
+
+  // Add a new HashMap to the front of the SymTable list
+  public void addScope() {
+   mySymTable.addFirst(new HashMap<String,Sym>()); 
+  }
+ 
+  // Returns the Sym paired to the given name in the first HashMap in the list
+  // If the list is empty or the first Map doesn't contain it, return null.
+  public Sym lookupLocal(String name) {
+    if(mySymTable.isEmpty()) {
+      return null;
+    }
+    else {
+      HashMap<String,Sym> firstMap = mySymTable.getFirst();
+      if(firstMap.containsKey(name)) {
+        return firstMap.get(name);
+      }
+      else return null;
+    }
+  }
+  
+  // Returns the Sym paired to the given name in the first HashMap that contains
+  // it. If the list doesn't contain a HashMap with that Sym or the list is
+  // empty, return null.
+  public Sym lookupGlobal(String name) {
+    Iterator<HashMap<String,Sym>> symTableIterator = mySymTable.listIterator();
+    while(symTableIterator.hasNext()) {
+      HashMap<String,Sym> curMap = symTableIterator.next();
+      if(curMap.containsKey(name)) {
+        return curMap.get(name);
+      }
+    }
+    return null;
+  }
+
+  // Removes the first HashMap in the list. If there are no HashMaps, throws
+  // the proper exception.
+  public void removeScope() throws EmptySymTableException {
+    if(mySymTable.isEmpty()) {
+      throw new EmptySymTableException();
+    }
+    else {
+      mySymTable.removeFirst();
+    }
+  }
+
+  // A simple print function for debugging. Prints each SymTable in 
+  // HashMap.toString() format, with newlines in between for clarity.
+  public void print() {
+    System.out.print("\nSym Table\n");
+    Iterator<HashMap<String,Sym>> symTableIterator = mySymTable.listIterator();
+    while(symTableIterator.hasNext()) {
+      HashMap<String,Sym> curMap = symTableIterator.next();
+      System.out.print(curMap.toString()+"\n");
+    }
+    System.out.print("\n");
+  }
+}

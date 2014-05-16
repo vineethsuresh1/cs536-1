@@ -1,0 +1,15 @@
+public class Sym {
+    private String myType;
+    
+    public Sym(String type) {
+        myType = type;
+    }
+    
+    public String getType() {
+        return myType;
+    }
+    
+    public String toString() {
+        return myType;
+    }
+}

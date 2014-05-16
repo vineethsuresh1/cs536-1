@@ -1,0 +1,30 @@
+Token: INTLITERAL
+LineNum: 1
+CharNum: 1
+Value: 123
+
+Token: ID
+LineNum: 1
+CharNum: 4
+Value: _hahaha
+
+Token: ID
+LineNum: 2
+CharNum: 2
+Value: hello
+
+Token: ID
+LineNum: 3
+CharNum: 2
+Value: whatsthat
+
+Token: ID
+LineNum: 4
+CharNum: 2
+Value: hello
+
+Token: ID
+LineNum: 5
+CharNum: 1
+Value: whatsup
+

@@ -1,0 +1,9 @@
+/**
+ * Defines the exception for a Sym that already exists in the SymTable
+ * @author John L. Peterson
+ * @version Feb 7, 2014
+ */
+
+public class DuplicateSymException extends Exception {
+  // blank for now, more functionality to be added soon
+}
